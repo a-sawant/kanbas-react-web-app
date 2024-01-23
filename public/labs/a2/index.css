@@ -1,0 +1,33 @@
+p {
+    background-color: blue;
+    color: white;
+ }
+ 
+ /*p {
+ background-color: blue;
+ color: white;}*/
+p#id-selector-1 {
+    background-color: red;
+    color: white;
+   }
+   p#id-selector-2 {
+    background-color: yellow;
+    color: black;
+   }
+   
+   .wd-class-selector {
+    background-color: yellow;
+    color: blue;
+   }
+/* This means  apply this red to .wd-selector-3 ONLY IF there is an ancestor .wd-selector-1 */
+   .wd-selector-1 .wd-selector-3 {
+    background-color: red;
+    color: white;
+ }
+
+ /* the greater than '>' means that it must be the immediate parent */
+ .wd-selector-2 > .wd-selector-3 > .wd-selector-4 {
+    background-color: yellow;
+    color: blue;
+ }
+ 
