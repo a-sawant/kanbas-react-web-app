@@ -1,0 +1,102 @@
+<html>
+    <head>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <select id="Gradebook">
+                        <option selected value="Gradebook">Gradebook</option>
+                     </select>
+                </td>
+                <td>
+                    <button>Import</button>
+                </td>
+                <td>
+                    <select id="Export">
+                        <option selected value="Export">Export</option>
+                     </select>
+                </td>
+                <td>
+                    <button>Configure</button>
+                </td>
+            </tr>
+        </table>
+        <h3>
+            Student Names
+        </h3>
+        <input type="text"
+            placeholder="Search Students"
+            id="text-search-students"
+        /><br/>
+        <h3>
+            Assignment Names
+        </h3>
+        <input type="text"
+            placeholder="Search Assignments"
+            id="text-search-assignments"
+        /><br/>
+        <h1></h1>
+        <button>Apply Filters</button>
+        <h1></h1>
+        <table border="1" width="100%">
+            <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>A1 SETUP Out of 100</th>
+                <th>A2 HTML Out of 100</th>
+                <th>A3 CSS Out of 100</th>
+                <th>A4 BOOTSTRAP Out of 100</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Tom Brady</td>
+                <td>100</td>
+                <td>100</td>
+                <td>
+                    <input type="number" id="grade_t_brady"
+                        placeholder="0" value="100"/>
+                </td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Joe Montana</td>
+                <td>90</td>
+                <td>
+                    <input type="number" id="grade_j_montana"
+                        placeholder="0" value="87"/>
+                </td>
+                <td>92</td>
+                <td>
+                    <input type="number" id="grade_j_montana2"
+                        placeholder="0" value="82"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Peyton Manning</td>
+                <td>
+                    <input type="number" id="grade_p_manning"
+                        placeholder="0" value="97"/>
+                </td>
+                        <td>95</td>
+                <td>93</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>Aaron Rodgers</td>
+                <td>87</td>
+                <td>95</td>
+                <td>
+                    <input type="number" id="grade_a_rodgers"
+                        placeholder="0" value="83"/>
+                </td>
+                <td>92</td>
+            </tr>
+            </tbody>
+         </table>
+
+    </body>
+
+</html>
