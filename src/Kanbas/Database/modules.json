@@ -1,16 +1,14 @@
-[
-    {
-      "_id": "RS101",
+[{ "_id": "RS101",
       "name": "Rocket Propulsion",
       "course": "RS101",
       "lessons": [
         {
-          "_id": "LP101",
+          "_id": "1",
           "name": "Introduction to Rocket Propulsion"
         },
         {
-          "_id": "LP102",
-          "name": "Rocket Engine Components"
+          "_id": "2",
+          "name": "Rocket Propultion Basics"
         }
       ]
     },
@@ -20,13 +18,17 @@
       "course": "RS102",
       "lessons": [
         {
-          "_id": "LA101",
+          "_id": "3",
           "name": "Basic Concepts of Aerodynamics"
         },
         {
-          "_id": "LA102",
-          "name": "Aerodynamic Forces and Moments"
-        }
+          "_id": "4",
+          "name": "Aerodynamic Forces"
+        },
+        {
+            "_id": "41",
+            "name": "Physics of Aerodynamics"
+          }
       ]
     },
     {
@@ -35,14 +37,19 @@
       "course": "RS103",
       "lessons": [
         {
-          "_id": "LS101",
+          "_id": "5",
           "name": "Introduction to Spacecraft Design"
         },
         {
-          "_id": "LS102",
-          "name": "Spacecraft Subsystems"
-        }
+          "_id": "6",
+          "name": "Spacecraft Basics"
+        },
+        {
+            "_id": "7",
+            "name": "Spacecraft History"
+          }
       ]
+      
     }
   ]
   
